@@ -2,7 +2,7 @@ import React from "react";
 import './App.css'
 // MD_PARSER
 
- const MD_TO_TOKEN_MAPPER = [
+const MD_TO_TOKEN_MAPPER = [
   { pattern: /^# (.*$)/, tag: 'h1' },
   { pattern: /^## (.*$)/, tag: 'h2' },
   { pattern: /```(.*)```/, tag: 'code' },
